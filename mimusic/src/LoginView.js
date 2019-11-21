@@ -43,6 +43,7 @@ export default class LoginView extends Component{
                 placeholderTextColor={'#000035'}
                 onSubmitEditing= {() => {this.passwordTextInput.focus();}}
                 returnKeyType={'next'}
+                autoCapitalize= {'none'}
                 />
 
                 <TextInput
